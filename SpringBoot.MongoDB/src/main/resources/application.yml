@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://vishalkaushik653:kaushikcluster@vishalkaushikcluster.oh6smbi.mongodb.net/
+      database: Taskdb

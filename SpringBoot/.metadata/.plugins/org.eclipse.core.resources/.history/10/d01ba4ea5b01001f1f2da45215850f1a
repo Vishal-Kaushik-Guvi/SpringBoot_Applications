@@ -1,0 +1,35 @@
+package com.example.SpringBoot.MongoDB.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.SpringBoot.MongoDB.Entity.Tasks;
+import com.example.SpringBoot.MongoDB.Service.TaskService;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+
+@Controller
+@RequestMapping("tasks")
+public class TaskController {
+
+@Autowired
+TaskService service;
+
+@PostMapping("addtask")
+public Tasks addingtask(Tasks task) {
+	return service.addTask(task);
+}
+
+@GetMapping("findalltask")
+public List<Tasks> Findalltask() {
+    return service.findAllTask();
+}
+
+
+
+}

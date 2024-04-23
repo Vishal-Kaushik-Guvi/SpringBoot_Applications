@@ -1,0 +1,3 @@
+spring.application.name=SpringBoot.Jdbc.sql
+
+spring.datasource.url = 

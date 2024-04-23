@@ -1,0 +1,37 @@
+package com.Guvi.Spring.SpringBoot.Controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import com.Guvi.Spring.SpringBoot.Services.ProductService;
+import com.Guvi.Spring.SpringBoot.Services.Products;
+
+@RestController
+@RequestMapping("products")
+public class ProductController {
+     
+    @Autowired
+    private ProductService service;
+
+    
+    @GetMapping("findall")
+    public List<Products> findAll(){
+        return service.Findall();
+    }
+
+    @GetMapping("findbyid")
+    public Products findById(@RequestParam int id){
+        return service.FindbyId(id);
+    }
+
+    @PostMapping("createproduct")
+    public void CreateProduct(@RequestBody Products product) {
+        service.createProduct(product);
+    }
+}

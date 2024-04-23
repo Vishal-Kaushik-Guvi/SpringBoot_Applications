@@ -1,0 +1,5 @@
+package com.example.SpringBoot.MongoDB.Entity;
+
+public class Tasks {
+
+}

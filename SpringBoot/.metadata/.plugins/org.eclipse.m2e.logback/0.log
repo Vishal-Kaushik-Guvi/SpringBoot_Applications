@@ -1,0 +1,443 @@
+2024-04-22 18:48:12,380 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-22 18:51:03,039 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-22 18:55:52,498 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.Jdbc.sql:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.Jdbc.sql\pom.xml.
+2024-04-22 18:55:53,423 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.Jdbc.sql/src/main/java
+2024-04-22 18:55:53,424 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.Jdbc.sql/src/main/resources
+2024-04-22 18:55:53,429 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.Jdbc.sql/src/main/resources
+2024-04-22 18:55:53,434 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.Jdbc.sql/src/test/java
+2024-04-22 18:55:53,434 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.Jdbc.sql/src/test/resources
+2024-04-22 18:55:54,223 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2024-04-22 18:55:55,372 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 18:55:55,394 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 18:55:55,400 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 18:59:55,364 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 18:59:55,374 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 18:59:55,379 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:07:08,143 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:07:08,153 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:07:08,158 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:07:14,298 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:07:14,305 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:07:14,309 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:07:16,862 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:07:16,873 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:07:16,876 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:07:44,412 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-22 19:15:50,984 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:15:51,001 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:15:51,007 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:18:03,829 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2024-04-22 19:18:03,866 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-22 19:18:03,900 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13e998b9{/help,null,AVAILABLE}
+2024-04-22 19:18:03,927 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@34bd31c5{HTTP/1.1, (http/1.1)}{127.0.0.1:50053}
+2024-04-22 19:18:03,932 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@42a9b11c{STARTING}[10.0.15,sto=0] @628443ms
+2024-04-22 19:19:18,416 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.Jdbc.sql:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.Jdbc.sql\pom.xml.
+2024-04-22 19:19:18,927 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.0/spring-boot-starter-data-jpa-3.2.0.pom
+2024-04-22 19:19:19,005 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.0/spring-boot-starter-data-jpa-3.2.0.pom
+2024-04-22 19:19:19,352 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.0/spring-boot-starter-data-jpa-3.2.0.jar
+2024-04-22 19:19:19,408 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.0/spring-boot-starter-data-jpa-3.2.0.jar
+2024-04-22 19:19:19,843 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:19:19,844 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:19:19,849 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:19:20,745 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.0/spring-boot-starter-data-jpa-3.2.0-sources.jar
+2024-04-22 19:19:20,831 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.0/spring-boot-starter-data-jpa-3.2.0-sources.jar
+2024-04-22 19:19:20,838 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jpa:3.2.0
+2024-04-22 19:19:55,148 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.Jdbc.sql:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.Jdbc.sql\pom.xml.
+2024-04-22 19:19:55,912 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:19:55,927 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:19:55,931 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:49:19,359 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:49:19,363 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:49:19,366 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:49:21,879 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:49:21,891 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:49:21,895 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:49:23,303 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:49:23,313 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:49:23,316 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:49:25,254 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 19:49:25,265 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 19:49:25,268 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 19:49:27,256 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@42a9b11c{STOPPING}[10.0.15,sto=0]
+2024-04-22 19:49:27,274 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@34bd31c5{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-22 19:49:27,290 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13e998b9{/help,null,STOPPED}
+2024-04-22 19:49:42,387 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-22 20:03:23,902 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 20:03:23,920 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 20:03:23,933 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 20:13:00,933 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2024-04-22 20:13:01,002 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-22 20:13:01,084 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@604ef712{/help,null,AVAILABLE}
+2024-04-22 20:13:01,201 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@54ba139f{HTTP/1.1, (http/1.1)}{127.0.0.1:50568}
+2024-04-22 20:13:01,212 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@2187f048{STARTING}[10.0.15,sto=0] @1412897ms
+2024-04-22 20:17:39,626 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 20:17:39,634 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 20:17:39,638 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 20:17:43,414 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-22 20:17:43,421 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-22 20:17:43,423 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-22 20:17:48,914 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@2187f048{STOPPING}[10.0.15,sto=0]
+2024-04-22 20:17:48,919 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@54ba139f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-22 20:17:48,926 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@604ef712{/help,null,STOPPED}
+2024-04-22 23:29:51,624 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-22 23:50:13,420 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2024-04-22 23:50:13,454 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-22 23:50:13,483 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@61d32db8{/help,null,AVAILABLE}
+2024-04-22 23:50:13,504 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@717b13d2{HTTP/1.1, (http/1.1)}{127.0.0.1:49944}
+2024-04-22 23:50:13,520 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@1ca12662{STARTING}[10.0.15,sto=0] @1234172ms
+2024-04-23 00:28:06,786 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:28:06,843 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:28:06,848 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 00:46:49,669 [Worker-37: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:46:49,702 [Worker-37: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:46:49,707 [Worker-37: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 00:49:18,350 [Worker-43: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:49:18,362 [Worker-43: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 00:49:18,365 [Worker-43: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 00:58:44,731 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:58:44,740 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:58:44,744 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 00:58:46,823 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:58:46,831 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 00:58:46,837 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:00:13,983 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:00:13,997 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:00:14,001 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:01:14,437 [Worker-55: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:14,454 [Worker-55: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:14,458 [Worker-55: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:01:25,766 [Worker-56: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:25,786 [Worker-56: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:25,790 [Worker-56: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:01:35,593 [Worker-54: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:35,600 [Worker-54: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:35,605 [Worker-54: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:01:47,645 [Worker-50: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:47,654 [Worker-50: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:01:47,657 [Worker-50: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:04:24,132 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:04:24,140 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:04:24,151 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:05:32,065 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:05:32,070 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:05:32,073 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:08:37,040 [Worker-55: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:08:37,048 [Worker-55: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 01:08:37,052 [Worker-55: Launching SpringBoot.Jdbc.sql - MainClass] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.Jdbc.sql\src\test\resources
+2024-04-23 01:13:20,294 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@1ca12662{STOPPING}[10.0.15,sto=0]
+2024-04-23 01:13:20,303 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@717b13d2{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-23 01:13:20,315 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@61d32db8{/help,null,STOPPED}
+2024-04-23 12:35:48,948 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-23 12:36:44,032 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.MongoDB:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.MongoDB\pom.xml.
+2024-04-23 12:36:44,398 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.5/spring-boot-starter-data-mongodb-3.2.5.pom
+2024-04-23 12:36:44,479 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.5/spring-boot-starter-data-mongodb-3.2.5.pom
+2024-04-23 12:36:44,597 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2.pom
+2024-04-23 12:36:44,648 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2.pom
+2024-04-23 12:36:44,701 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/4.11.2/bson-4.11.2.pom
+2024-04-23 12:36:44,748 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson/4.11.2/bson-4.11.2.pom
+2024-04-23 12:36:44,795 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2.pom
+2024-04-23 12:36:44,843 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2.pom
+2024-04-23 12:36:44,890 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.87.Final/netty-bom-4.1.87.Final.pom
+2024-04-23 12:36:44,941 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.87.Final/netty-bom-4.1.87.Final.pom
+2024-04-23 12:36:44,992 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2.pom
+2024-04-23 12:36:45,038 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2.pom
+2024-04-23 12:36:45,085 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.2.5/spring-data-mongodb-4.2.5.pom
+2024-04-23 12:36:45,136 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.2.5/spring-data-mongodb-4.2.5.pom
+2024-04-23 12:36:45,183 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb-parent/4.2.5/spring-data-mongodb-parent-4.2.5.pom
+2024-04-23 12:36:45,230 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb-parent/4.2.5/spring-data-mongodb-parent-4.2.5.pom
+2024-04-23 12:36:45,480 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2.jar
+2024-04-23 12:36:45,480 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2.jar
+2024-04-23 12:36:45,569 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/4.11.2/bson-4.11.2.jar
+2024-04-23 12:36:45,569 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.5/spring-boot-starter-data-mongodb-3.2.5.jar
+2024-04-23 12:36:45,569 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2.jar
+2024-04-23 12:36:45,670 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2.jar
+2024-04-23 12:36:45,686 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.5/spring-boot-starter-data-mongodb-3.2.5.jar
+2024-04-23 12:36:45,686 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2.jar
+2024-04-23 12:36:45,808 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.2.5/spring-data-mongodb-4.2.5.jar
+2024-04-23 12:36:45,923 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson/4.11.2/bson-4.11.2.jar
+2024-04-23 12:36:46,007 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2.jar
+2024-04-23 12:36:46,064 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.2.5/spring-data-mongodb-4.2.5.jar
+2024-04-23 12:36:46,975 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.MongoDB/src/main/java
+2024-04-23 12:36:46,975 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/main/resources
+2024-04-23 12:36:46,979 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/main/resources
+2024-04-23 12:36:46,982 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.MongoDB/src/test/java
+2024-04-23 12:36:46,983 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/test/resources
+2024-04-23 12:36:47,331 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2024-04-23 12:36:47,719 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.5/spring-boot-starter-data-mongodb-3.2.5-sources.jar
+2024-04-23 12:36:47,803 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.5/spring-boot-starter-data-mongodb-3.2.5-sources.jar
+2024-04-23 12:36:47,808 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-mongodb:3.2.5
+2024-04-23 12:36:47,988 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2-sources.jar
+2024-04-23 12:36:47,999 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 12:36:48,030 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 12:36:48,035 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 12:36:48,096 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2-sources.jar
+2024-04-23 12:36:48,100 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:mongodb-driver-sync:4.11.2
+2024-04-23 12:36:48,305 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/4.11.2/bson-4.11.2-sources.jar
+2024-04-23 12:36:48,538 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson/4.11.2/bson-4.11.2-sources.jar
+2024-04-23 12:36:48,543 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:bson:4.11.2
+2024-04-23 12:36:48,721 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2-sources.jar
+2024-04-23 12:36:48,998 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2-sources.jar
+2024-04-23 12:36:49,002 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:mongodb-driver-core:4.11.2
+2024-04-23 12:36:49,177 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2-sources.jar
+2024-04-23 12:36:49,263 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2-sources.jar
+2024-04-23 12:36:49,268 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:bson-record-codec:4.11.2
+2024-04-23 12:36:49,444 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.2.5/spring-data-mongodb-4.2.5-sources.jar
+2024-04-23 12:36:49,728 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/4.2.5/spring-data-mongodb-4.2.5-sources.jar
+2024-04-23 12:36:49,732 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-mongodb:4.2.5
+2024-04-23 12:37:13,668 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 12:37:13,677 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 12:37:13,681 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 12:40:38,489 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 12:40:38,493 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 12:40:38,495 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 12:49:10,513 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 12:49:10,521 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 12:49:10,524 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 12:53:01,222 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 12:53:01,434 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 12:53:01,441 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 12:53:24,013 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2024-04-23 12:53:24,045 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-23 12:53:24,080 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1bc8f14{/help,null,AVAILABLE}
+2024-04-23 12:53:24,110 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7ded2ed8{HTTP/1.1, (http/1.1)}{127.0.0.1:50186}
+2024-04-23 12:53:24,127 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@7b02e7fe{STARTING}[10.0.15,sto=0] @1068347ms
+2024-04-23 12:59:54,765 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 12:59:54,793 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 12:59:54,797 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:05:55,902 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:05:55,916 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:05:55,920 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:07:07,307 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:07:07,321 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:07:07,326 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:10:14,954 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:10:14,966 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:10:14,968 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:10:21,477 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:10:21,484 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:10:21,486 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:10:22,588 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:10:22,599 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:10:22,601 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:11:15,183 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-04-23 13:11:15,490 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.MongoDB:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.MongoDB\pom.xml.
+2024-04-23 13:11:16,113 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.MongoDB/src/main/java
+2024-04-23 13:11:16,113 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/main/resources
+2024-04-23 13:11:16,113 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/main/resources
+2024-04-23 13:11:16,114 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.MongoDB/src/test/java
+2024-04-23 13:11:16,114 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/test/resources
+2024-04-23 13:11:16,666 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-04-23 13:11:17,007 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:11:17,018 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:11:17,022 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:14:03,557 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:14:03,595 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:14:03,599 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:15:58,427 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:15:58,435 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:15:58,437 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:16:06,170 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-04-23 13:16:06,417 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.MongoDB:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.MongoDB\pom.xml.
+2024-04-23 13:16:06,821 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.MongoDB/src/main/java
+2024-04-23 13:16:06,821 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/main/resources
+2024-04-23 13:16:06,821 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/main/resources
+2024-04-23 13:16:06,821 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot.MongoDB/src/test/java
+2024-04-23 13:16:06,821 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot.MongoDB/src/test/resources
+2024-04-23 13:16:07,160 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-04-23 13:16:07,583 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:16:07,596 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:16:07,600 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:21:59,650 [Worker-74: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.MongoDB:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.MongoDB\pom.xml.
+2024-04-23 13:22:00,235 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:22:00,255 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:22:00,260 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:22:00,888 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@7b02e7fe{STOPPING}[10.0.15,sto=0]
+2024-04-23 13:22:00,893 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7ded2ed8{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-23 13:22:00,901 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1bc8f14{/help,null,STOPPED}
+2024-04-23 13:22:14,000 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-23 13:27:36,623 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2024-04-23 13:27:36,666 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-23 13:27:36,700 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7d1ef8ad{/help,null,AVAILABLE}
+2024-04-23 13:27:36,726 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@be927a2{HTTP/1.1, (http/1.1)}{127.0.0.1:50773}
+2024-04-23 13:27:36,747 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@c49f93c{STARTING}[10.0.15,sto=0] @335044ms
+2024-04-23 13:27:52,076 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.Jdbc.sql:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.Jdbc.sql\pom.xml.
+2024-04-23 13:27:54,296 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.Jdbc.sql:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.Jdbc.sql\pom.xml.
+2024-04-23 13:30:55,385 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 13:30:55,408 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 13:30:55,413 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 13:30:55,985 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@c49f93c{STOPPING}[10.0.15,sto=0]
+2024-04-23 13:30:55,990 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@be927a2{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-23 13:30:55,998 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7d1ef8ad{/help,null,STOPPED}
+2024-04-23 13:31:05,236 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-23 15:11:48,159 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-23 15:11:59,180 [Worker-1: Build] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:11:59,198 [Worker-1: Build] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:11:59,203 [Worker-1: Build] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:12:21,174 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:12:21,217 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:12:21,220 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:14:37,345 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2024-04-23 15:14:37,379 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-23 15:14:37,410 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@35dcf50{/help,null,AVAILABLE}
+2024-04-23 15:14:37,437 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@b8087d4{HTTP/1.1, (http/1.1)}{127.0.0.1:49893}
+2024-04-23 15:14:37,454 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@3227ed89{STARTING}[10.0.15,sto=0] @183482ms
+2024-04-23 15:14:49,708 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:14:49,726 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:14:49,730 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:19:31,675 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:19:31,743 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:19:31,747 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:21:14,876 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:21:14,887 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:21:14,889 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:23:08,399 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:23:08,407 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:23:08,410 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:24:24,273 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:24:24,282 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:24:24,285 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:25:25,185 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:25:25,195 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:25:25,221 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:30:48,420 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:30:48,433 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:30:48,435 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:31:30,136 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:31:30,150 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:31:30,154 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:32:20,751 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:32:20,765 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:32:20,768 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:35:15,028 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:35:15,037 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:35:15,040 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:37:51,104 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:37:51,116 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:37:51,118 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:51:59,476 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:51:59,487 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:51:59,490 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:52:22,491 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:52:22,509 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:52:22,512 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:54:31,152 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:54:31,163 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:54:31,167 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:56:11,475 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:56:11,483 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:56:11,485 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:56:16,630 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:56:16,639 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:56:16,640 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 15:58:11,343 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 15:58:11,350 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 15:58:11,352 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:00:21,836 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:00:21,847 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:00:21,850 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:01:02,856 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:01:02,869 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:01:02,873 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:01:27,597 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:01:27,608 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:01:27,612 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:02:48,128 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:02:48,138 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:02:48,141 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:03:53,298 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:03:53,306 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:03:53,308 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:06:52,473 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:06:52,480 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:06:52,483 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:08:03,790 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:08:03,801 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:08:03,804 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:08:30,353 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:08:30,364 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:08:30,366 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:08:42,532 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:08:42,570 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:08:42,572 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:12:14,933 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:12:14,948 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:12:14,952 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:12:28,958 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot.MongoDB:0.0.1-SNAPSHOT @ C:\Users\user\Desktop\SpringBoot.MongoDB\pom.xml.
+2024-04-23 16:12:29,959 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:12:29,960 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:12:29,963 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:12:31,334 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:12:31,347 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:12:31,351 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:16:33,021 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:16:33,032 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:16:33,034 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:21:41,109 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:21:41,119 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:21:41,123 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:22:05,028 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:22:05,038 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:22:05,040 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:31:23,005 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:31:23,017 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:31:23,020 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:32:21,870 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:32:21,883 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:32:21,885 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:33:47,825 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:33:47,838 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:33:47,842 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:34:18,426 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:34:18,467 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:34:18,470 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:34:49,212 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:34:49,225 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:34:49,229 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:35:27,464 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:35:27,471 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:35:27,473 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:35:39,871 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:35:39,880 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:35:39,883 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:36:12,676 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:36:12,683 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:36:12,686 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:41:14,977 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 16:41:14,988 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 16:41:14,991 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 16:45:45,947 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@3227ed89{STOPPING}[10.0.15,sto=0]
+2024-04-23 16:45:45,953 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@b8087d4{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-23 16:45:45,964 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@35dcf50{/help,null,STOPPED}
+2024-04-23 20:01:10,371 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-23 20:03:22,249 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:03:22,265 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:03:22,269 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:03:54,146 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:03:54,176 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:03:54,181 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:05:07,514 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2024-04-23 20:05:07,554 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-23 20:05:07,587 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@750d32af{/help,null,AVAILABLE}
+2024-04-23 20:05:07,615 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@16ebda99{HTTP/1.1, (http/1.1)}{127.0.0.1:50005}
+2024-04-23 20:05:07,631 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@5c3db38f{STARTING}[10.0.15,sto=0] @253054ms
+2024-04-23 20:05:18,646 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:05:18,682 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:05:18,687 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:06:25,485 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:06:25,512 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:06:25,515 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:06:33,074 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:06:33,119 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:06:33,125 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:06:42,216 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:06:42,226 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:06:42,229 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:23:00,590 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:23:00,614 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:23:00,617 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:33:26,453 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 20:33:26,464 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 20:33:26,468 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\SpringBoot.MongoDB\src\test\resources
+2024-04-23 20:40:01,049 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@5c3db38f{STOPPING}[10.0.15,sto=0]
+2024-04-23 20:40:01,055 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@16ebda99{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-23 20:40:01,063 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@750d32af{/help,null,STOPPED}

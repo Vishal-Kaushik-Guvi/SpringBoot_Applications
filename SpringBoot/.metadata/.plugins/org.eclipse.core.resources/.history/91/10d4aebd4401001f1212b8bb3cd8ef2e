@@ -1,0 +1,5 @@
+package com.example.SpringBoot.MongoDB.Repository;
+
+public interface TaskRepository {
+
+}

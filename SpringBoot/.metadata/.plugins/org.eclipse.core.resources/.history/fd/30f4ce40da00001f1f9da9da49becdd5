@@ -1,0 +1,19 @@
+package com.example.SpringBoot.Jdbc.sql;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+public interface StudentRepo extends JpaRepository<Students, Integer> {
+     
+	Students findbyName(String name);
+	
+	Students findbyAddress(String address);
+	
+	Students findbyNameAndAddress(String name, String address);
+	
+	// to get student by name and address
+	@Query("select u from Students v where v.name = ?1 and v.address = ?2")
+	Students getStudentByNameAndAddress(String name, String address);
+	
+	@Query()
+}

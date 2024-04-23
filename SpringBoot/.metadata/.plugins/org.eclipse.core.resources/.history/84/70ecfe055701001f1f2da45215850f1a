@@ -1,0 +1,27 @@
+package com.example.SpringBoot.MongoDB.Service;
+
+import java.util.List;
+import java.util.UUID;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.SpringBoot.MongoDB.Entity.Tasks;
+import com.example.SpringBoot.MongoDB.Repository.TaskRepository;
+
+@Service
+public class TaskService {
+	
+  @Autowired
+  TaskRepository taskrepo;
+  
+  public Tasks addTask(Tasks task) {
+	  task.setTaskid(UUID.randomUUID().toString().split("-")[0]);
+	  return taskrepo.save(task);
+  }
+  
+  public List<Tasks> findAllTask(){
+	  return taskrepo.findAll();
+  }
+  
+}

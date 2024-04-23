@@ -1,0 +1,47 @@
+package com.example.SpringBoot.MongoDB.Service;
+
+import java.util.List;
+import java.util.UUID;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.SpringBoot.MongoDB.Entity.Tasks;
+import com.example.SpringBoot.MongoDB.Repository.TaskRepository;
+
+@Service
+public class TaskService {
+	
+  @Autowired
+  TaskRepository taskrepo;
+  
+  public Tasks addTask(Tasks task) {
+	  task.setTaskid(UUID.randomUUID().toString().split("-")[0]);
+	  return taskrepo.save(task);
+  }
+  
+  public List<Tasks> findAllTask(){
+	  return taskrepo.findAll();
+  }
+  
+  public Tasks findById(String id) {
+	  return taskrepo.findById(id).get();
+  }
+  
+  public List<Tasks> findBySevernity(int severnity){
+	  return taskrepo.FindBySeverity(severnity);
+  }
+  
+  public List<Tasks> findByAssignee(String assignee){
+	  return taskrepo.getByAssignee(assignee);
+  }
+  
+  public Tasks UpdateTask(Tasks updatetask) {
+	 Tasks updatedtask = taskrepo.findById(updatetask.getTaskid()).get();
+	 updatedtask.setTaskAssignee(updatetask.getTaskAssignee());
+	 updatedtask.setTaskDescription(updatetask.getTaskDescription());
+	 updatedtask.setSotryPoint(updatetask.getSotryPoint());
+	 updatetask.setTaskSeverity(updatetask.getTaskSeverity());
+	 return updatedtask;
+  }
+}
