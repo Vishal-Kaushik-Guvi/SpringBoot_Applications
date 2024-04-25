@@ -42,10 +42,10 @@ public Tasks Findbyid(@PathVariable String id) {
 	return service.findById(id);
 }
 
-//@GetMapping("findbyseverity/{severity}")
-//public List<Tasks> FindbySeverity(@PathVariable int severity){
-//	return service.gettaskbySeverity(severity);
-//}
+@GetMapping("findbyseverity/{severity}")
+public List<Tasks> FindbySeverity(@PathVariable int severity){
+	return service.gettaskbySeverity(severity);
+}
 
 @GetMapping("findbyassignee/{assignee}")
 public List<Tasks> Findbyassignee(@PathVariable String assignee){
@@ -58,7 +58,7 @@ public Tasks UpdateTask(Tasks task) {
 }
 
 @DeleteMapping("deletetask/{taskid}")
-public String DeleteTask(@PathVariable String id) {
-	return service.DeleteTask(id);
+public String DeleteTask(@PathVariable String taskid) {
+	return service.DeleteTask(taskid);
 }
 }

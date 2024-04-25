@@ -28,9 +28,9 @@ public class TaskService {
 	  return taskrepo.findById(id).get();
   }
   
-//  public List<Tasks> gettaskbySeverity(int Severity){
-//	  return taskrepo.findbyseverity(Severity);
-//  }
+  public List<Tasks> gettaskbySeverity(int Severity){
+	  return taskrepo.findBySeverity(Severity);
+  }
   
   public List<Tasks> findByAssignee(String assignee){
 	  return taskrepo.getByAssignee(assignee);
@@ -38,10 +38,10 @@ public class TaskService {
   
   public Tasks UpdateTask(Tasks task) {
 	 Tasks updatedtask = taskrepo.findById(task.getTaskid()).get();
-	 updatedtask.setTaskAssignee(task.getTaskAssignee());
+	 updatedtask.setAssignee(task.getAssignee());
 	 updatedtask.setTaskDescription(task.getTaskDescription());
 	 updatedtask.setStoryPoint(task.getStoryPoint());
-	 updatedtask.setTaskSeverity(task.getTaskSeverity());
+	 updatedtask.setSeverity(task.getSeverity());
 	 
 	 return taskrepo.save(updatedtask);
   }

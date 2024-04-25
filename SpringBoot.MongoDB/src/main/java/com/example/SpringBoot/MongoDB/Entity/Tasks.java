@@ -3,17 +3,11 @@ package com.example.SpringBoot.MongoDB.Entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.Data;
 import lombok.ToString;
 
 @Document
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
+@Data
 @ToString
 public class Tasks {
  
@@ -22,9 +16,9 @@ public class Tasks {
 	
 	private String taskDescription;
 	
-	private int taskSeverity;
+	private int  severity; // for Mongo repo
 	
-	private String taskAssignee; 
+	private String assignee; // for Mongo repo
 	
 	private int storyPoint;
 	

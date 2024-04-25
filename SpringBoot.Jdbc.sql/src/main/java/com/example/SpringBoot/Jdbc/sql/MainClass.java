@@ -17,9 +17,13 @@ public class MainClass {
 		System.out.println("Student Repo is done ");
 		
 		Students std = new Students();
+
+		std.setName("Demon 1");
+		std.setAddress("America");
 		
-		List<Students> stdinfo = sr.findAll();
-		stdinfo.forEach(System.out::println);
+		List<Students> stdbyaddress = sr.findByAddress("Garhi Brahmna");
+		// List<Students> stdinfo = sr.findAll();
+		stdbyaddress.forEach(System.out::println);
 		
 	}
 }

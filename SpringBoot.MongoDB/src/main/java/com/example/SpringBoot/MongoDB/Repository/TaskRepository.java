@@ -9,7 +9,7 @@ import com.example.SpringBoot.MongoDB.Entity.Tasks;
 
 public interface TaskRepository extends MongoRepository<Tasks, String> {
 	
-//	List<Tasks> findbyseverity(int taskSeverity);
+	List<Tasks> findBySeverity(int taskSeverity);
 	
 	@Query("{assignee:?0}")
 	List<Tasks> getByAssignee(String assignee);
