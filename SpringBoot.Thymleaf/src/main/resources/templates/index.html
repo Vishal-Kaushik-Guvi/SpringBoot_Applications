@@ -9,8 +9,18 @@
     <h1>Welcome to Thymleaf Product Class</h1>
 
     <a href="/addproduct">Add Products</a> <br>
-    <a href="/displayproduct">Display Products By Category</a> <br>
-    <a href="/allproducts">Display All Products</a>
+    <a href="/productlist">Display All Products</a>
+
+    <h1>Find Your Product Entring Category</h1>
+    
+    <form action="/index" method="post">
+
+        <label for="category">Enter Category:</label>
+        <input type="text" id="category" name="category" required>
+        <br>
+  
+        <button type="submit">Submit</button>
+    </form>
 
 </body>
 </html>
