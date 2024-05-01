@@ -2,8 +2,10 @@ package com.example.SpringBoot.SpringSecurity.Configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -15,20 +17,21 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
+
 public class SecurityConfig {
 
-	// This method user for encoding password and use Bcrypt which is a salt
+	// This method used for encoding password and use Bcrypt which is a salt
 	// mechanicsm security provider.
 
 	@Bean
-	PasswordEncoder passEncoder() {
+	private PasswordEncoder passEncoder() {
 		return new BCryptPasswordEncoder();
 	}
 
 	// This method is used for user and admin authentication
 
 	@Bean
-	UserDetailsService userDetails(PasswordEncoder pe) {
+	private UserDetailsService userDetailsService() {
 
 		// UserDetails admin = User.withUsername("Vishal")
 		// 		.password(pe.encode("vishal123")).roles("ADMIN").build();
@@ -48,18 +51,29 @@ public class SecurityConfig {
 	// against which they are currently authenticated.
 
 	@Bean
-	SecurityFilterChain securityFilter(HttpSecurity http) throws Exception {
-		return http.csrf().disable().authorizeHttpRequests()
-				.requestMatchers("/products/welcome","/products/new").permitAll().and()
-				.authorizeHttpRequests().requestMatchers("/products/**")
-				.authenticated().and().formLogin().and().build();
+	public SecurityFilterChain securityFilter(HttpSecurity http) throws Exception {
+		return http
+			.csrf().disable()
+			.authorizeHttpRequests(auth -> auth
+				.requestMatchers("/products/new").permitAll()
+				.anyRequest().authenticated()
+			)
+			.formLogin()
+			.and()
+			.build();
 	}
 
 	@Bean
 	public AuthenticationProvider provider() {
 		DaoAuthenticationProvider dap = new DaoAuthenticationProvider();
-		dap.setUserDetailsService(userDetails(null));
+		dap.setUserDetailsService(userDetailsService());
 		dap.setPasswordEncoder(passEncoder());
 		return dap;
+	}
+
+	// For JWT
+	@Bean
+	public AuthenticationManager AuthManager(AuthenticationConfiguration config)throws Exception{
+            return config.getAuthenticationManager();
 	}
 }

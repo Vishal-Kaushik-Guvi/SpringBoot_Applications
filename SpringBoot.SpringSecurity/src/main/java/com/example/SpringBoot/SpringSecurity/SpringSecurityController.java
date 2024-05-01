@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.SpringBoot.SpringSecurity.Configuration.UserInfo;
-import com.example.SpringBoot.SpringSecurity.Entity.SecurityProduct;
-import com.example.SpringBoot.SpringSecurity.Entity.SecurityService;
+import com.example.SpringBoot.SpringSecurity.Configuration.SecurityService;
+import com.example.SpringBoot.SpringSecurity.Entity.ProductInfo;
+import com.example.SpringBoot.SpringSecurity.Entity.UserInfo;
 
 @RestController
 @RequestMapping("/products")
@@ -29,17 +29,17 @@ public class SpringSecurityController {
   
   @PreAuthorize("hasAuthority('ROLE_ADMIN')")
   @GetMapping("/allproducts")
-  public List<SecurityProduct> getAllProduct(){
+  public List<ProductInfo> getAllProduct(){
 	  return service.getProducts();
   }
   
   @GetMapping("/productid/{id}")
-  public SecurityProduct getProductByid(@PathVariable int id) {
+  public ProductInfo getProductByid(@PathVariable int id) {
 	  return service.getProductById(id);
   }
 
   @PostMapping("/new")
-  public String addNewUser(@RequestBody UserInfo userInfo){
-      return service.addUser(userInfo);
+  public String addTheUser(@RequestBody UserInfo userinfo){
+      return service.addNewUser(userinfo);
   }
 }

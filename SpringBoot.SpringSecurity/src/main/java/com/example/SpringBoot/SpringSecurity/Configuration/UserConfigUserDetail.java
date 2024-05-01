@@ -10,6 +10,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.example.SpringBoot.SpringSecurity.Entity.UserInfo;
+
 public class UserConfigUserDetail implements UserDetails {
 
     private String name;

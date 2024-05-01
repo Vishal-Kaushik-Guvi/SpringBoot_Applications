@@ -1,4 +1,4 @@
-package com.example.SpringBoot.SpringSecurity.Configuration;
+package com.example.SpringBoot.SpringSecurity.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
