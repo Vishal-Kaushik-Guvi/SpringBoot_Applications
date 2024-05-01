@@ -6,9 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.SpringBoot.SpringSecurity.Configuration.UserInfo;
 import com.example.SpringBoot.SpringSecurity.Entity.SecurityProduct;
 import com.example.SpringBoot.SpringSecurity.Entity.SecurityService;
 
@@ -30,9 +33,13 @@ public class SpringSecurityController {
 	  return service.getProducts();
   }
   
-  @PreAuthorize("hasAuthority('ROLE_USER')")
   @GetMapping("/productid/{id}")
   public SecurityProduct getProductByid(@PathVariable int id) {
 	  return service.getProductById(id);
+  }
+
+  @PostMapping("/new")
+  public String addNewUser(@RequestBody UserInfo userInfo){
+      return service.addUser(userInfo);
   }
 }
