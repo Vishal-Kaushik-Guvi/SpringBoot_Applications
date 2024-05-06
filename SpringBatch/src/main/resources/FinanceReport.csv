@@ -1,0 +1,11 @@
+id,segment,country,product,units sold,date
+1,government,America,Tesla,10,1/1/2015
+2,public,Russia,Nuke,2,12/2/2016
+3,private,China,chopstick,100000,11/6/2020
+4,bussiness,India,Planes,4,12/4/2016
+5,public,America,Trucks,556,12/5/2016
+6,private,Russia,Messiles,122,12/6/2016
+7,government,India,Ships,100,2/5/2014
+8,bussiness,Taiwan,Semiconductor,100000,12/8/2016
+9,private,America,Apple,15678,1/9/2019
+10,private,China,Virus,1,1/1/2020
