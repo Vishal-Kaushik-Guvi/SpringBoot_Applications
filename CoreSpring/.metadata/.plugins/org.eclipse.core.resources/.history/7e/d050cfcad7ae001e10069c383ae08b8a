@@ -1,0 +1,59 @@
+package com.java.hibernate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import jakarta.persistence.Embeddable;
+
+@Embeddable
+public class Certificate {
+   String City;
+    int Marks;
+     
+	public Certificate(String std_city, int std_marks) {
+		super();
+		this.City = std_city;
+		this.Marks = std_marks;
+	}
+
+	public Certificate() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		
+		Configuration config = new Configuration();
+		config.configure("com/java/hibernate/config.xml");
+		SessionFactory sf = config.buildSessionFactory();
+		
+		Certificate certi = new Certificate("Kalupur", 90);
+		
+		Student st1 = new Student();
+		st1.setName("Rahul");
+		st1.setId(2);
+		st1.setCourse("Eng");
+		st1.setCertificate(certi);
+		
+		Student st2 = new Student();
+		st2.setName("Gohan");
+		st2.setId(3);
+		st2.setCourse("Phy");
+		st2.setCertificate(certi);
+		
+		Session ss = sf.openSession();
+		
+		Transaction tx = ss.beginTransaction();
+		ss.save(st1);
+		ss.save(st2);
+		
+		tx.commit();
+		
+		sf.close();
+		ss.close();
+		
+	}
+ 
+}

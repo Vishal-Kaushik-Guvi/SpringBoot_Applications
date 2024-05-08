@@ -1,0 +1,32 @@
+package com.spring.jdbc.dao;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.spring.jdbc.Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ApplicationContext ac = new ClassPathXmlApplicationContext("com/spring/jdbc/Springjdbc.xml");
+         StudentDao sd = (StudentDao) ac.getBean("jdbcdao");
+         Student std = new Student();
+//         std.setId(101);
+//         std.setName("Hasranga");
+//         std.setCity("Bihar");
+//         
+//         int result = sd.insert(std);
+//         
+//         System.out.println("Data insereted through dao " +result);
+         
+       
+
+         std.setId(101);
+         std.setName("Rampal");
+         
+         int result = sd.update(std);
+         
+         System.out.println("data updated " +result);
+	}
+
+}

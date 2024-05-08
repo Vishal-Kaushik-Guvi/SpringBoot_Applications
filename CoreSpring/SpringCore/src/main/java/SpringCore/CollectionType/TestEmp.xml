@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean class = "SpringCore.CollectionType.Employee" name = "Emp1">
+ 
+ <property name = "Emp_id" value = "01" />
+ 
+ <property name = "Emp_Work">
+  <list>
+  <value>Scientist</value>
+  <value>Engineer</value>
+  </list>
+ </property>
+ 
+ <property name = "Emp_FamilyMembers">
+ <set>
+ <value>FATHER_Raju</value>
+ <value>Mother_Kamla</value>
+ </set>
+ </property>
+ 
+ <property name = "Emp_Name">
+ <map>
+ <entry key = "01" value = "Bhupender" />
+ </map>
+ </property>
+
+ </bean>
+
+ </beans>

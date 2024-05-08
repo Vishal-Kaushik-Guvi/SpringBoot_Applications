@@ -1,0 +1,10 @@
+package com.Guvi.Spring.SpringBoot.Services;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Products {
+  private String Pname;
+  private int Pid;
+  private long Pvalue;
+}

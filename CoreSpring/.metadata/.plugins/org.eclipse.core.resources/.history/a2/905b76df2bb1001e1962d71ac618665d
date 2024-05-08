@@ -1,0 +1,33 @@
+package Application;
+
+import java.io.BufferedReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+	ServerSocket ser;
+	Socket soc;
+	
+	BufferedReader br;
+	PrintWriter pw;
+	
+	Server() {
+		try {
+			
+      ser = new ServerSocket();
+      System.out.println("Server is Ready");
+      System.out.println("waiting...");
+      soc = ser.accept();
+      
+      
+		}catch(Exception e) {	
+			e.printStackTrace();		
+		}
+	}
+	
+ public static void main(String[] args) {
+	 
+ }
+ 
+}

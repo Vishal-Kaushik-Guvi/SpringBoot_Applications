@@ -1,0 +1,18 @@
+package Application;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+	ServerSocket server;
+	Socket socket;
+	
+	Server() {
+      
+	}
+	
+ public static void main(String[] args) {
+	 
+ }
+ 
+}

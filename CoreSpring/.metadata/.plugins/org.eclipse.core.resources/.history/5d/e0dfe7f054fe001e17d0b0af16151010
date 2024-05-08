@@ -1,0 +1,17 @@
+package com.Guvi.Spring.RestTesting;
+import org.springframework.stereotype.Service;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+    
+    @Service
+    @Getter
+    @Setter
+    @ToString
+    public class Library {
+    
+        private String bookName; // Changed field name to match Java naming conventions
+        private String bookAuthor; // Changed field name to match Java naming conventions
+    }
+

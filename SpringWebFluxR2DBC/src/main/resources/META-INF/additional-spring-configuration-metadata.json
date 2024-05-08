@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.r2dbc.pool.intital-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.r2dbc.pool.intital-size'"
+  },
+  {
+    "name": "spring.sql.init.log-mode",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.sql.init.log-mode'"
+  },
+  {
+    "name": "spring.r2dbc.pool.intial-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.r2dbc.pool.intial-size'"
+  }
+]}

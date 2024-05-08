@@ -1,0 +1,29 @@
+package Application;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+	ServerSocket ser;
+	Socket soc;
+	
+	Server() {
+		try {
+      ser = new ServerSocket();
+      System.out.println("Server is Ready");
+      System.out.println("waiting...");
+      ser.accept();
+      
+      
+		}catch(Exception e) {
+			
+			e.printStackTrace();
+			
+		}
+	}
+	
+ public static void main(String[] args) {
+	 
+ }
+ 
+}

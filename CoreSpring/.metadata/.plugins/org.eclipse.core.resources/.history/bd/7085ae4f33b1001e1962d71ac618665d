@@ -1,0 +1,57 @@
+package Application;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+	ServerSocket ser;
+	Socket soc;
+	
+	BufferedReader br;
+	PrintWriter pw;
+	
+	
+	Server() {
+		try {
+			
+      ser = new ServerSocket();
+      System.out.println("Server is Ready");
+      System.out.println("waiting...");
+      soc = ser.accept();
+      
+      br = new BufferedReader(new InputStreamReader(soc.getInputStream()));
+      
+      pw = new PrintWriter(soc.getOutputStream());
+        
+		}catch(Exception e) {	
+			e.printStackTrace();		
+		}
+	}
+	
+	public void StartReading() {
+		Runnable read = ()->{
+			System.out.println("Reader...");
+			
+			while(true) {
+				String msg = br.readLine();
+				if(msg.equals("Exit")) {
+					System.out.println("Client Terminated the chat..");
+					break;
+				}
+				
+			}
+		};
+	}
+	
+	public void StartWriting() {
+		
+	}
+	
+ public static void main(String[] args) {
+	 
+ }
+ 
+}

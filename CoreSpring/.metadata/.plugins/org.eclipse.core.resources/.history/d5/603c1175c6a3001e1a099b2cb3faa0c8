@@ -1,0 +1,5 @@
+package autowiring.SpringCore;
+
+public class TestWiring {
+
+}

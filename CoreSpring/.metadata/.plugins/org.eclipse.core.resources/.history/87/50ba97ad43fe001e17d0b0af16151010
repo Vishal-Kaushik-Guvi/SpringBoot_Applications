@@ -1,0 +1,5 @@
+package com.Guvi.Spring.SpringBoot.Services;
+
+public interface ProductRepository {
+
+}

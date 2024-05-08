@@ -1,0 +1,8 @@
+package Question1;
+
+import java.util.Scanner;
+
+public class Library {
+    Scanner sc = new Scanner(System.in)
+    Book[] books = new Book[];
+}

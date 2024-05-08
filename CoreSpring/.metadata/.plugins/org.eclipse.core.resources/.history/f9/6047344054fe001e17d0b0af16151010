@@ -1,0 +1,32 @@
+package com.Guvi.Spring.RestTesting;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+public class LIbraryController {
+    @RestController
+    @RequestMapping("books")
+    public class bwController {
+    
+        @GetMapping("cd1") // cd1 is path name
+        public Library getData(Library obj){
+    
+            obj.setBookName("Life of two bells");
+            obj.setBookAuthor("Mark leif");
+            return obj;
+        }
+    
+        @PostMapping(value = "cBook",consumes= MediaType.APPLICATION_JSON_VALUE)
+        @ResponseStatus(value = HttpStatus.CREATED)
+        public Library cBook(@RequestBody Library lib){
+    
+            System.out.println("Hello");
+    
+            return lib;
+        }
+    }
+}

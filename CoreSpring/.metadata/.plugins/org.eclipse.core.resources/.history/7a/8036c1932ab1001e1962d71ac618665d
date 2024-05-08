@@ -1,0 +1,13 @@
+package Application;
+
+public class Server {
+	
+	public void server() {
+      
+	}
+	
+ public static void main(String[] args) {
+	 
+ }
+ 
+}

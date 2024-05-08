@@ -1,0 +1,24 @@
+package com.Guvi.Spring.SpringBoot.Services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ProductService {
+ 
+	
+	private ProductRepository productRepo;
+	
+	
+	// To find all products
+	 
+	public List<Products> Findall(){
+		return productRepo.findAll();
+	}
+	
+	public Products FindbyId(int productId) {
+		return productRepo.findById(productId);
+	}
+}

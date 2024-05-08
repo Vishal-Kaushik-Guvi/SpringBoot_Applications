@@ -1,0 +1,18 @@
+package com.java.hibernate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class FetchData {
+       public static void main(String[] args) {
+           Configuration config = new Configuration();
+           config.configure("com/java/hibernate/config.xml");
+           SessionFactory factory = config.buildSessionFactory();
+           Session ss = factory.openSession();
+           
+           Student st = (Student) ss.get(Student.class, 1);   
+           System.out.println(st);
+           ss.close();
+       }
+}

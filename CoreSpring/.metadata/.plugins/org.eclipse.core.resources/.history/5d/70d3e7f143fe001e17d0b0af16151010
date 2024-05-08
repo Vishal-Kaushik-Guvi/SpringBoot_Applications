@@ -1,0 +1,5 @@
+package com.Guvi.Spring.SpringBoot.Exceptions;
+
+public class ProductNotFound {
+
+}

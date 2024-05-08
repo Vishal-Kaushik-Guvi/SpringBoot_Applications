@@ -1,0 +1,17 @@
+package Application;
+
+public class Client {
+	
+	Client(){
+	super(){
+		
+	}
+	}
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+
+}
