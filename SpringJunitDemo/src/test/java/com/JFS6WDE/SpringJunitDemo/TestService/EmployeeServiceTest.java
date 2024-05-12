@@ -1,10 +1,12 @@
 package com.JFS6WDE.SpringJunitDemo.TestService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -40,7 +42,7 @@ public void testGetAllTheEmployees(){
     employees.add(new Employee(3, "kunal", "Cyber"));
     employees.add(new Employee(4, "Abhishek", "Mechanical"));
   
-// When Repo find all is run return above list structure to make a test success
+// When Repo find all is run, return above list structure to make a test success
     when(employeeRepository.findAll()).thenReturn(employees);
     
     List<Employee> result = employeeService.findAllEmployee();
@@ -60,9 +62,16 @@ public void testEmployeeSave(){
 
 }
 
+
 @Test
-public void testEmployeeByid(){
+public void testEmployeeById() {
     Employee emp = new Employee(1, "Vishal", "Testing");
-    when(employeeRepository.findById(emp.getId())).thenAnswer(emp.getId());
+    when(employeeRepository.findById(emp.getId())).thenReturn(Optional.of(emp));
+    
+    Optional<Employee> result = employeeService.findEmployeeById(emp.getId());
+    
+    assertTrue(result.isPresent()); // Check if result is present
+    assertEquals(emp.getId(), result.get().getId()); // Compare IDs
 }
+
 }

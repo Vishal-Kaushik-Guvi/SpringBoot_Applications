@@ -1,6 +1,7 @@
 package com.JFS6WDE.SpringJunitDemo.Services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,11 +19,16 @@ public List<Employee> findAllEmployee(){
     return empRepo.findAll();
 }
 
-public Employee findEmployeeById(int id){
-    return empRepo.findById(id).get();
+public Optional< Employee > findEmployeeById(int id){
+    return empRepo.findById(id);
 }
 
 public Employee savEmployeeData(Employee emp){
    return empRepo.save(emp);
+}
+
+public String deleteEmployeeByid(int id){
+      empRepo.deleteById(id);
+      return "Employee with " + id + "Deleted";
 }
 }

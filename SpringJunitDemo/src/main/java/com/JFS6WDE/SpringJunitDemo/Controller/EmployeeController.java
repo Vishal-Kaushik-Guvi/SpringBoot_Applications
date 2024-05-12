@@ -1,8 +1,10 @@
 package com.JFS6WDE.SpringJunitDemo.Controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,12 +28,17 @@ public List<Employee> getAllEmployees(){
 }
 
 @GetMapping("/{id}")
-public Employee getEmployeeById(@PathVariable int id){
+public Optional<Employee> getEmployeeById(@PathVariable int id){
  return empService.findEmployeeById(id);
 }
 
 @PostMapping("/save")
 public Employee saveEmployee(@RequestBody Employee emp){
     return empService.savEmployeeData(emp);
+}
+
+@DeleteMapping("/{id}")
+public void deleteById(@PathVariable int id){
+    empService.deleteEmployeeByid(id);
 }
 }

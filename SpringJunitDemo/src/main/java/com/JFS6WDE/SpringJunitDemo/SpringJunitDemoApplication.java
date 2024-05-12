@@ -8,6 +8,7 @@ public class SpringJunitDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJunitDemoApplication.class, args);
+		System.out.println("Junit Testing is Running...");
 	}
 
 }

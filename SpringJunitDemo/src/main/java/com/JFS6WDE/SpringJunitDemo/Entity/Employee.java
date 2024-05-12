@@ -1,4 +1,4 @@
-package com.JFS6WDE.SpringJunitDemo.Entity;
+package com.JFS6WDE.SpringJunitDemo.Entity; 
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
