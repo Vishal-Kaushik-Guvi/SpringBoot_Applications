@@ -2,6 +2,8 @@ package com.JFS6WDE.SpringJunitDemo.TestService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
@@ -54,14 +56,13 @@ public void testEmployeeSave(){
     Employee emp = new Employee(1, "Vishal", "Testing");
     when(employeeRepository.save(emp)).thenReturn(emp);
 
-    Employee result = employeeService.savEmployeeData(emp);
+    Employee result = employeeService.saveEmployeeData(emp);
     assertEquals(emp, result);
     assertEquals("Vishal", result.getName());
     // assertEquals("2", result.getId()) // id is auto generated soo cannot be tested
     assertEquals("Testing", result.getDepartment());
 
 }
-
 
 @Test
 public void testEmployeeById() {
@@ -74,4 +75,16 @@ public void testEmployeeById() {
     assertEquals(emp.getId(), result.get().getId()); // Compare IDs
 }
 
+@Test
+public void testEmplyeeDeleteByid() {
+	employeeRepository.deleteById(4);;
+	verify(employeeRepository, times(1)).deleteById(4);
+}
+
+@Test
+public void zeroEmployeeExist(){
+    when(employeeRepository.findAll()).thenReturn(new ArrayList<>()); // cannot use null it will occure null pointer exception
+    List<Employee> empList = employeeService.findAllEmployee();
+    assertTrue(empList.isEmpty());
+}
 }

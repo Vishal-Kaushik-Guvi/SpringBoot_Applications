@@ -34,7 +34,7 @@ public Optional<Employee> getEmployeeById(@PathVariable int id){
 
 @PostMapping("/save")
 public Employee saveEmployee(@RequestBody Employee emp){
-    return empService.savEmployeeData(emp);
+    return empService.saveEmployeeData(emp);
 }
 
 @DeleteMapping("/{id}")

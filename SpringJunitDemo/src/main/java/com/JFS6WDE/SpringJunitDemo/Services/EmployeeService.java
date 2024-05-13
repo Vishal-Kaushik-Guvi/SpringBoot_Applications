@@ -23,7 +23,7 @@ public Optional< Employee > findEmployeeById(int id){
     return empRepo.findById(id);
 }
 
-public Employee savEmployeeData(Employee emp){
+public Employee saveEmployeeData(Employee emp){
    return empRepo.save(emp);
 }
 
