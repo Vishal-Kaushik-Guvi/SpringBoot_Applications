@@ -9,6 +9,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -21,36 +22,37 @@ import com.Guvi.SpringBootPractiseEmployee.Repository.UserRepo;
 public class UserServiceImplement implements UserServiceConfig {
 
   @Autowired
-  private UserRepo userRepo;
+  private UserRepo userRepository;
 
   @Autowired
-  private PasswordEncoder passwordEncoder;
+  private BCryptPasswordEncoder passwordEncoder;
 
   @Override
   public User save(UserRegistrationDto registrationDto) {
-    User user = new User(
-        registrationDto.getFirstName(),
-        registrationDto.getLastName(),
-        registrationDto.getEmail(),
-        passwordEncoder.encode(registrationDto.getPassword()),
-        Arrays.asList(new Role("ROLE_USER")));
+      //create new user object with registration dto
+      System.out.println("email:"+registrationDto.getEmail());
+      System.out.println("password "+registrationDto.getPassword());
+      User user=new User(
+              registrationDto.getFirstName(),
+              registrationDto.getLastName(),
+              registrationDto.getEmail(),
+              passwordEncoder.encode(registrationDto.getPassword()),
+              Arrays.asList(new Role("ROLE_USER")));
 
-    return userRepo.save(user);
+      return userRepository.save(user);
   }
-
-  private Collection<GrantedAuthority> rolesAuthority(Collection<Role> roles) {
-    return roles.stream().map(role -> new SimpleGrantedAuthority(role.getRole())).collect(Collectors.toList());
-  }
-
   @Override
-  public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-    User user = userRepo.findByEmail(email);
-    if (user == null) {
-      throw new UsernameNotFoundException("Invalid User Name");
-    }
-    return new org.springframework.security.core.userdetails.User(
-        user.getEmail(),
-        user.getPassword(),
-        rolesAuthority(user.getRoles()));
+  public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+      User user = userRepository.findByEmail(username);
+      if(user==null){
+          throw new UsernameNotFoundException("Invalid username or password");
+      }
+      return new org.springframework.security.core.userdetails.User(user.getEmail(),user.getPassword(),
+              mapRolesAuthorites(user.getRoles()));
+  }
+
+
+  private Collection<? extends GrantedAuthority> mapRolesAuthorites(Collection<Role> roles){
+      return  roles.stream().map(role -> new SimpleGrantedAuthority(role.getRole())).collect(Collectors.toList());
   }
 }

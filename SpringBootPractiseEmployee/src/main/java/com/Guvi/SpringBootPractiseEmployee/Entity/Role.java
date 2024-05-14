@@ -13,7 +13,6 @@ public class Role {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "role_id") // Changed to match the column name in the database
     private int id;
 
     @Column(name = "role_name") // Changed to match the column name in the database
